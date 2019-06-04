@@ -1,0 +1,58 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\joffrey.dalet\\Source\\Repos\\GIT\\Git\\fsharptests\\MatrixVsTensor\\MatrixVsTensor\\MatrixVsTensor.fsproj": {}
+  },
+  "projects": {
+    "C:\\Users\\joffrey.dalet\\Source\\Repos\\GIT\\Git\\fsharptests\\MatrixVsTensor\\MatrixVsTensor\\MatrixVsTensor.fsproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\joffrey.dalet\\Source\\Repos\\GIT\\Git\\fsharptests\\MatrixVsTensor\\MatrixVsTensor\\MatrixVsTensor.fsproj",
+        "projectName": "MatrixVsTensor",
+        "projectPath": "C:\\Users\\joffrey.dalet\\Source\\Repos\\GIT\\Git\\fsharptests\\MatrixVsTensor\\MatrixVsTensor\\MatrixVsTensor.fsproj",
+        "packagesPath": "C:\\Users\\joffrey.dalet\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\joffrey.dalet\\Source\\Repos\\GIT\\Git\\fsharptests\\MatrixVsTensor\\MatrixVsTensor\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\joffrey.dalet\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "FSharp.Core": {
+              "target": "Package",
+              "version": "[4.6.2, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
