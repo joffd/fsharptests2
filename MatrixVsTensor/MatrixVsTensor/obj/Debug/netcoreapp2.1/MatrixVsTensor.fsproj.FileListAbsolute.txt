@@ -1,0 +1,10 @@
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Debug\netcoreapp2.1\MatrixVsTensor.deps.json
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Debug\netcoreapp2.1\MatrixVsTensor.runtimeconfig.json
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Debug\netcoreapp2.1\MatrixVsTensor.runtimeconfig.dev.json
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Debug\netcoreapp2.1\MatrixVsTensor.dll
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\obj\Debug\netcoreapp2.1\MatrixVsTensor.fsprojAssemblyReference.cache
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\obj\Debug\netcoreapp2.1\MatrixVsTensor.AssemblyInfoInputs.cache
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\obj\Debug\netcoreapp2.1\MatrixVsTensor.AssemblyInfo.fs
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Debug\netcoreapp2.1\MatrixVsTensor.pdb
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\obj\Debug\netcoreapp2.1\MatrixVsTensor.dll
+C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\obj\Debug\netcoreapp2.1\MatrixVsTensor.pdb

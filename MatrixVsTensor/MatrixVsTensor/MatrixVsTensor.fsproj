@@ -2,11 +2,20 @@
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
-    <TargetFramework>netcoreapp2.1</TargetFramework>
+    <TargetFramework>netcoreapp3.0</TargetFramework>
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Include="TestBenchmark.fs" />
+    <Compile Include="MatrixVsTensor.fs" />
     <Compile Include="Program.fs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BenchmarkDotNet" Version="0.11.5" />
+    <PackageReference Include="MathNet.Numerics" Version="4.8.0" />
+    <PackageReference Include="MathNet.Numerics.FSharp" Version="4.8.0" />
+    <PackageReference Include="Tensor" Version="0.4.11" />
   </ItemGroup>
 
 </Project>

@@ -1,0 +1,255 @@
+// Validating benchmarks:
+// ***** BenchmarkRunner: Start   *****
+// ***** Found 2 benchmark(s) in total *****
+// ***** Building 1 exe(s) in Parallel: Start   *****
+// start dotnet restore  /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Release\netcoreapp2.1\64dec387-a46a-41d6-b187-ba1d6ac23082
+// command took 3.21s and exited with 0
+// start dotnet build -c Release  --no-restore /p:UseSharedCompilation=false /p:BuildInParallel=false /m:1 in C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Release\netcoreapp2.1\64dec387-a46a-41d6-b187-ba1d6ac23082
+// command took 7.9s and exited with 0
+// ***** Done, took 00:00:11 (11.45 sec)   *****
+// Found 2 benchmarks:
+//   ExecBench.Matrix: DefaultJob
+//   ExecBench.Tensor: DefaultJob
+
+Setup power plan (GUID: 8c5e7fda-e8bf-4a96-9a85-a6e23a8c635c FriendlyName: High performance)// **************************
+// Benchmark: ExecBench.Matrix: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "64dec387-a46a-41d6-b187-ba1d6ac23082.dll" --benchmarkName "Program+Harness+ExecBench.Matrix" --job "Default" --benchmarkId 0 in C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Release\netcoreapp2.1\64dec387-a46a-41d6-b187-ba1d6ac23082\bin\Release\netcoreapp2.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 353948.88 ns, 353.9489 us/op
+WorkloadJitting  1: 1 op, 102444006.72 ns, 102.4440 ms/op
+
+WorkloadPilot    1: 2 op, 199883756.97 ns, 99.9419 ms/op
+WorkloadPilot    2: 3 op, 299168909.27 ns, 99.7230 ms/op
+WorkloadPilot    3: 4 op, 399154334.91 ns, 99.7886 ms/op
+WorkloadPilot    4: 5 op, 499272014.84 ns, 99.8544 ms/op
+WorkloadPilot    5: 6 op, 599501421.81 ns, 99.9169 ms/op
+
+WorkloadWarmup   1: 6 op, 599596140.52 ns, 99.9327 ms/op
+WorkloadWarmup   2: 6 op, 599621946.24 ns, 99.9370 ms/op
+WorkloadWarmup   3: 6 op, 599441599.46 ns, 99.9069 ms/op
+WorkloadWarmup   4: 6 op, 599433095.30 ns, 99.9055 ms/op
+WorkloadWarmup   5: 6 op, 599467405.18 ns, 99.9112 ms/op
+WorkloadWarmup   6: 6 op, 599353332.18 ns, 99.8922 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 6 op, 599827218.99 ns, 99.9712 ms/op
+WorkloadActual   2: 6 op, 599158323.06 ns, 99.8597 ms/op
+WorkloadActual   3: 6 op, 600085276.17 ns, 100.0142 ms/op
+WorkloadActual   4: 6 op, 599273569.05 ns, 99.8789 ms/op
+WorkloadActual   5: 6 op, 599881176.40 ns, 99.9802 ms/op
+WorkloadActual   6: 6 op, 599291457.11 ns, 99.8819 ms/op
+WorkloadActual   7: 6 op, 599401424.65 ns, 99.9002 ms/op
+WorkloadActual   8: 6 op, 599365941.79 ns, 99.8943 ms/op
+WorkloadActual   9: 6 op, 599394679.98 ns, 99.8991 ms/op
+WorkloadActual  10: 6 op, 599455088.81 ns, 99.9092 ms/op
+WorkloadActual  11: 6 op, 599310811.39 ns, 99.8851 ms/op
+WorkloadActual  12: 6 op, 599423418.16 ns, 99.9039 ms/op
+WorkloadActual  13: 6 op, 600027799.80 ns, 100.0046 ms/op
+WorkloadActual  14: 6 op, 599453622.58 ns, 99.9089 ms/op
+WorkloadActual  15: 6 op, 599213453.46 ns, 99.8689 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 6 op, 599827218.99 ns, 99.9712 ms/op
+WorkloadResult   2: 6 op, 599158323.06 ns, 99.8597 ms/op
+WorkloadResult   3: 6 op, 600085276.17 ns, 100.0142 ms/op
+WorkloadResult   4: 6 op, 599273569.05 ns, 99.8789 ms/op
+WorkloadResult   5: 6 op, 599881176.40 ns, 99.9802 ms/op
+WorkloadResult   6: 6 op, 599291457.11 ns, 99.8819 ms/op
+WorkloadResult   7: 6 op, 599401424.65 ns, 99.9002 ms/op
+WorkloadResult   8: 6 op, 599365941.79 ns, 99.8943 ms/op
+WorkloadResult   9: 6 op, 599394679.98 ns, 99.8991 ms/op
+WorkloadResult  10: 6 op, 599455088.81 ns, 99.9092 ms/op
+WorkloadResult  11: 6 op, 599310811.39 ns, 99.8851 ms/op
+WorkloadResult  12: 6 op, 599423418.16 ns, 99.9039 ms/op
+WorkloadResult  13: 6 op, 600027799.80 ns, 100.0046 ms/op
+WorkloadResult  14: 6 op, 599453622.58 ns, 99.9089 ms/op
+WorkloadResult  15: 6 op, 599213453.46 ns, 99.8689 ms/op
+GC:  0 0 0 0 6
+
+// AfterAll
+
+Mean = 99.9174 ms, StdErr = 0.0129 ms (0.01%); N = 15, StdDev = 0.0498 ms
+Min = 99.8597 ms, Q1 = 99.8819 ms, Median = 99.9002 ms, Q3 = 99.9712 ms, Max = 100.0142 ms
+IQR = 0.0893 ms, LowerFence = 99.7480 ms, UpperFence = 100.1051 ms
+ConfidenceInterval = [99.8641 ms; 99.9706 ms] (CI 99.9%), Margin = 0.0533 ms (0.05% of Mean)
+Skewness = 0.81, Kurtosis = 2.07, MValue = 2
+
+// **************************
+// Benchmark: ExecBench.Tensor: DefaultJob
+// *** Execute ***
+// Launch: 1 / 1
+// Execute: dotnet "64dec387-a46a-41d6-b187-ba1d6ac23082.dll" --benchmarkName "Program+Harness+ExecBench.Tensor" --job "Default" --benchmarkId 1 in C:\Users\joffrey.dalet\Source\Repos\GIT\Git\fsharptests\MatrixVsTensor\MatrixVsTensor\bin\Release\netcoreapp2.1\64dec387-a46a-41d6-b187-ba1d6ac23082\bin\Release\netcoreapp2.1
+// BeforeAnythingElse
+
+// Benchmark Process Environment Information:
+// Runtime=.NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT
+// GC=Concurrent Workstation
+// Job: DefaultJob
+
+OverheadJitting  1: 1 op, 432539.02 ns, 432.5390 us/op
+WorkloadJitting  1: 1 op, 12315778.70 ns, 12.3158 ms/op
+
+OverheadJitting  2: 16 op, 486496.43 ns, 30.4060 us/op
+WorkloadJitting  2: 16 op, 159595166.94 ns, 9.9747 ms/op
+
+WorkloadPilot    1: 16 op, 159745309.30 ns, 9.9841 ms/op
+WorkloadPilot    2: 32 op, 319463346.64 ns, 9.9832 ms/op
+WorkloadPilot    3: 64 op, 639373014.90 ns, 9.9902 ms/op
+
+OverheadWarmup   1: 64 op, 2052.73 ns, 32.0739 ns/op
+OverheadWarmup   2: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadWarmup   3: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadWarmup   4: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadWarmup   5: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadWarmup   6: 64 op, 293.25 ns, 4.5820 ns/op
+
+OverheadActual   1: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual   2: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual   3: 64 op, 586.49 ns, 9.1640 ns/op
+OverheadActual   4: 64 op, 586.49 ns, 9.1640 ns/op
+OverheadActual   5: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual   6: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual   7: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual   8: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual   9: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual  10: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual  11: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual  12: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual  13: 64 op, 586.49 ns, 9.1640 ns/op
+OverheadActual  14: 64 op, 586.49 ns, 9.1640 ns/op
+OverheadActual  15: 64 op, 586.49 ns, 9.1640 ns/op
+OverheadActual  16: 64 op, 586.49 ns, 9.1640 ns/op
+OverheadActual  17: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual  18: 64 op, 293.25 ns, 4.5820 ns/op
+OverheadActual  19: 64 op, 586.49 ns, 9.1640 ns/op
+OverheadActual  20: 64 op, 586.49 ns, 9.1640 ns/op
+
+WorkloadWarmup   1: 64 op, 639904378.09 ns, 9.9985 ms/op
+WorkloadWarmup   2: 64 op, 639391489.45 ns, 9.9905 ms/op
+WorkloadWarmup   3: 64 op, 639465974.14 ns, 9.9917 ms/op
+WorkloadWarmup   4: 64 op, 639323456.19 ns, 9.9894 ms/op
+WorkloadWarmup   5: 64 op, 639204691.24 ns, 9.9876 ms/op
+WorkloadWarmup   6: 64 op, 639210262.93 ns, 9.9877 ms/op
+WorkloadWarmup   7: 64 op, 639441048.16 ns, 9.9913 ms/op
+WorkloadWarmup   8: 64 op, 639394128.67 ns, 9.9905 ms/op
+
+// BeforeActualRun
+WorkloadActual   1: 64 op, 639786786.12 ns, 9.9967 ms/op
+WorkloadActual   2: 64 op, 639391489.45 ns, 9.9905 ms/op
+WorkloadActual   3: 64 op, 639390316.46 ns, 9.9905 ms/op
+WorkloadActual   4: 64 op, 639457763.22 ns, 9.9915 ms/op
+WorkloadActual   5: 64 op, 639414362.70 ns, 9.9908 ms/op
+WorkloadActual   6: 64 op, 639181524.75 ns, 9.9872 ms/op
+WorkloadActual   7: 64 op, 639470079.59 ns, 9.9917 ms/op
+WorkloadActual   8: 64 op, 639157185.26 ns, 9.9868 ms/op
+WorkloadActual   9: 64 op, 639142522.93 ns, 9.9866 ms/op
+WorkloadActual  10: 64 op, 639370375.68 ns, 9.9902 ms/op
+WorkloadActual  11: 64 op, 639181231.50 ns, 9.9872 ms/op
+WorkloadActual  12: 64 op, 639465680.89 ns, 9.9917 ms/op
+WorkloadActual  13: 64 op, 639216714.36 ns, 9.9878 ms/op
+WorkloadActual  14: 64 op, 639406151.79 ns, 9.9907 ms/op
+WorkloadActual  15: 64 op, 639428731.79 ns, 9.9911 ms/op
+
+// AfterActualRun
+WorkloadResult   1: 64 op, 639786492.88 ns, 9.9967 ms/op
+WorkloadResult   2: 64 op, 639391196.20 ns, 9.9905 ms/op
+WorkloadResult   3: 64 op, 639390023.22 ns, 9.9905 ms/op
+WorkloadResult   4: 64 op, 639457469.98 ns, 9.9915 ms/op
+WorkloadResult   5: 64 op, 639414069.45 ns, 9.9908 ms/op
+WorkloadResult   6: 64 op, 639181231.50 ns, 9.9872 ms/op
+WorkloadResult   7: 64 op, 639469786.34 ns, 9.9917 ms/op
+WorkloadResult   8: 64 op, 639156892.02 ns, 9.9868 ms/op
+WorkloadResult   9: 64 op, 639142229.68 ns, 9.9866 ms/op
+WorkloadResult  10: 64 op, 639370082.43 ns, 9.9902 ms/op
+WorkloadResult  11: 64 op, 639180938.25 ns, 9.9872 ms/op
+WorkloadResult  12: 64 op, 639465387.64 ns, 9.9916 ms/op
+WorkloadResult  13: 64 op, 639216421.12 ns, 9.9878 ms/op
+WorkloadResult  14: 64 op, 639405858.54 ns, 9.9907 ms/op
+WorkloadResult  15: 64 op, 639428438.55 ns, 9.9911 ms/op
+GC:  0 0 0 0 64
+
+// AfterAll
+
+Mean = 9.9901 ms, StdErr = 0.0007 ms (0.01%); N = 15, StdDev = 0.0026 ms
+Min = 9.9866 ms, Q1 = 9.9872 ms, Median = 9.9905 ms, Q3 = 9.9915 ms, Max = 9.9967 ms
+IQR = 0.0043 ms, LowerFence = 9.9807 ms, UpperFence = 9.9980 ms
+ConfidenceInterval = [9.9872 ms; 9.9929 ms] (CI 99.9%), Margin = 0.0028 ms (0.03% of Mean)
+Skewness = 0.61, Kurtosis = 3.21, MValue = 2
+
+Successfully reverted power plan (GUID: 381b4222-f694-41f0-9685-ff5bb260df2e FriendlyName: Balanced)
+// ***** BenchmarkRunner: Finish  *****
+
+// * Export *
+  BenchmarkDotNet.Artifacts\results\Program.Harness.ExecBench-report.csv
+  BenchmarkDotNet.Artifacts\results\Program.Harness.ExecBench-report-github.md
+  BenchmarkDotNet.Artifacts\results\Program.Harness.ExecBench-report.html
+
+// * Detailed results *
+ExecBench.Matrix: DefaultJob
+Runtime = .NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 99.9174 ms, StdErr = 0.0129 ms (0.01%); N = 15, StdDev = 0.0498 ms
+Min = 99.8597 ms, Q1 = 99.8819 ms, Median = 99.9002 ms, Q3 = 99.9712 ms, Max = 100.0142 ms
+IQR = 0.0893 ms, LowerFence = 99.7480 ms, UpperFence = 100.1051 ms
+ConfidenceInterval = [99.8641 ms; 99.9706 ms] (CI 99.9%), Margin = 0.0533 ms (0.05% of Mean)
+Skewness = 0.81, Kurtosis = 2.07, MValue = 2
+-------------------- Histogram --------------------
+[99.842 ms ; 100.032 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+ExecBench.Tensor: DefaultJob
+Runtime = .NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT; GC = Concurrent Workstation
+Mean = 9.9901 ms, StdErr = 0.0007 ms (0.01%); N = 15, StdDev = 0.0026 ms
+Min = 9.9866 ms, Q1 = 9.9872 ms, Median = 9.9905 ms, Q3 = 9.9915 ms, Max = 9.9967 ms
+IQR = 0.0043 ms, LowerFence = 9.9807 ms, UpperFence = 9.9980 ms
+ConfidenceInterval = [9.9872 ms; 9.9929 ms] (CI 99.9%), Margin = 0.0028 ms (0.03% of Mean)
+Skewness = 0.61, Kurtosis = 3.21, MValue = 2
+-------------------- Histogram --------------------
+[9.986 ms ; 9.998 ms) | @@@@@@@@@@@@@@@
+---------------------------------------------------
+
+// * Summary *
+
+BenchmarkDotNet=v0.11.5, OS=Windows 7 SP1 (6.1.7601.0)
+Intel Xeon CPU E5-1620 v3 3.50GHz, 1 CPU, 8 logical and 4 physical cores
+Frequency=3410097 Hz, Resolution=293.2468 ns, Timer=TSC
+.NET Core SDK=2.1.700
+  [Host]     : .NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT DEBUG  [AttachedDebugger]
+  DefaultJob : .NET Core 2.1.11 (CoreCLR 4.6.27617.04, CoreFX 4.6.27617.02), 64bit RyuJIT
+
+
+| Method |      Mean |     Error |    StdDev | Gen 0 | Gen 1 | Gen 2 | Allocated |
+|------- |----------:|----------:|----------:|------:|------:|------:|----------:|
+| Matrix | 99.917 ms | 0.0533 ms | 0.0498 ms |     - |     - |     - |         - |
+| Tensor |  9.990 ms | 0.0028 ms | 0.0026 ms |     - |     - |     - |         - |
+
+// * Warnings *
+Environment
+  Summary -> Benchmark was executed with attached debugger
+
+// * Legends *
+  Mean      : Arithmetic mean of all measurements
+  Error     : Half of 99.9% confidence interval
+  StdDev    : Standard deviation of all measurements
+  Gen 0     : GC Generation 0 collects per 1000 operations
+  Gen 1     : GC Generation 1 collects per 1000 operations
+  Gen 2     : GC Generation 2 collects per 1000 operations
+  Allocated : Allocated memory per single operation (managed only, inclusive, 1KB = 1024B)
+  1 ms      : 1 Millisecond (0.001 sec)
+
+// * Diagnostic Output - MemoryDiagnoser *
+
+
+// ***** BenchmarkRunner: End *****
+// ** Remained 0 benchmark(s) to run **
+Run time: 00:00:36 (36.18 sec), executed benchmarks: 2
+
+Global total time: 00:00:47 (47.63 sec), executed benchmarks: 2
+// * Artifacts cleanup *
